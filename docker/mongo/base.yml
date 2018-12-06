@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./db_storage:/var/lib/mongo  # Link to your local database, it will be imported when running.
+      #- ./db_storage:/var/lib/mongo  # Link to your local database, it will be imported when running.
       - ./conf/mongod.conf:/etc/mongod.conf
     environment:
       MONGO_INITDB_ROOT_USER: ${MONGO_ROOT_USER}

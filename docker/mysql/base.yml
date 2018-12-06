@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./db_storage:/var/lib/mysql  # Link to your local database, it will be imported when running.
+      #- ./db_storage:/var/lib/mysql  # Link to your local database, it will be imported when running.
       - ./conf/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
