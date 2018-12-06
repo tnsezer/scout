@@ -1,0 +1,4 @@
+[06-Dec-2018 13:58:12] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[06-Dec-2018 13:58:12] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[06-Dec-2018 13:58:12] NOTICE: fpm is running, pid 1
+[06-Dec-2018 13:58:12] NOTICE: ready to handle connections

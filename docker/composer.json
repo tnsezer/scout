@@ -1,0 +1,14 @@
+{
+    "name": "quooker/docker",
+    "description": "The docker package to run Quooker",
+    "type": "magento-library",
+    "version": "1.0.0",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+version: '2'
+services:
+  db:
+    extends:
+      file: mysql/base.yml
+      service: db
+  phpmyadmin:
+    extends:
+      file: phpmyadmin/base.yml
+      service: phpmyadmin
+  elastic-search:
+    extends:
+      file: elastic-search/base.yml
+      service: es
+  mailhog:
+    extends:
+      file: mailhog/base.yml
+      service: mailhog
+  php:
+    extends:
+      file: php7/base.yml
+      service: php
+  web:
+    extends:
+      file: nginx/base.yml
+      service: web
+  redis:
+    extends:
+      file: redis/base.yml
+      service: redis
+  mongo:
+    extends:
+      file: mongo/base.yml
+      service: mongo
+  mongoclient:
+    extends:
+      file: mongoclient/base.yml
+      service: mongoclient 
