@@ -9,11 +9,3 @@ parameters:
     process_async_wait: 1000
     process_timeout: 60
     tasks:
-        phpcsfixer2:
-            allow_risky: false
-            cache_file: ~
-            config: ~
-            rules: ['@Symfony']
-            using_cache: true
-            path_mode: ~
-            verbose: true

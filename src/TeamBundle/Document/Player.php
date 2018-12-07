@@ -11,9 +11,9 @@ use Doctrine\Bundle\MongoDBBundle\Validator\Constraints\Unique as MongoDBUnique;
  *
  * @author Tan SEZER <t.sezer@youwe.nl>
  *
- * @MongoDB\Document(collection="teams")
+ * @MongoDB\Document(collection="players")
  */
-class Team
+class Player
 {
     /**
      * @MongoDB\Id
@@ -30,14 +30,41 @@ class Team
     /**
      * @MongoDB\Field(type="string")
      * @Assert\NotBlank()
+     * @Assert\Regex("/[a-zA-Z]+/")
      */
-    protected $city;
+    protected $name;
+
+    /**
+     * @MongoDB\Field(type="string")
+     * @Assert\NotBlank()
+     * @Assert\Regex("/[a-zA-Z]+/")
+     */
+    protected $surname;
+
+    /**
+     * @MongoDB\Field(type="string")
+     * @Assert\NotBlank()
+     * @Assert\Range(
+     *      min = 1,
+     *      max = 99,
+     *      minMessage = "You must be at least {{ limit }} number to enter",
+     *      maxMessage = "You cannot be enter than {{ limit }} number"
+     * )
+     */
+    protected $number;
 
     /**
      * @MongoDB\Field(type="string")
      * @Assert\NotBlank()
      */
-    protected $teamName;
+    protected $position;
+
+    /**
+     * @MongoDB\Field(type="datetime")
+     * @Assert\NotBlank()
+     * @Assert\DateTime()
+     */
+    protected $birthDate;
 
     public function getId()
     {
@@ -54,23 +81,53 @@ class Team
         $this->country = $country;
     }
 
-    public function getCity()
+    public function getName()
     {
-        return $this->city;
+        return $this->name;
     }
 
-    public function setCity($city)
+    public function setName($name)
     {
-        $this->city = $city;
+        $this->name = $name;
     }
 
-    public function getTeam()
+    public function getSurname()
     {
-        return $this->teamName;
+        return $this->surname;
     }
 
-    public function setTeam($teamName)
+    public function setSurname($surname)
     {
-        $this->teamName = $teamName;
+        $this->surname = $surname;
+    }
+
+    public function getNumber()
+    {
+        return $this->number;
+    }
+
+    public function setNumber($number)
+    {
+        $this->number = $number;
+    }
+
+    public function getPosition()
+    {
+        return $this->position;
+    }
+
+    public function setPosition($position)
+    {
+        $this->position = $position;
+    }
+
+    public function getBirthdate()
+    {
+        return $this->birthDate;
+    }
+
+    public function setBirthdate($birthDate)
+    {
+        $this->birthDate = $birthDate;
     }
 }

@@ -11,9 +11,9 @@ use Doctrine\Bundle\MongoDBBundle\Validator\Constraints\Unique as MongoDBUnique;
  *
  * @author Tan SEZER <t.sezer@youwe.nl>
  *
- * @MongoDB\Document(collection="players")
+ * @MongoDB\Document(collection="scouts")
  */
-class Player
+class Scout
 {
     /**
      * @MongoDB\Id
@@ -44,23 +44,11 @@ class Player
     /**
      * @MongoDB\Field(type="string")
      * @Assert\NotBlank()
-     * @Assert\Range(
-     *      min = 1,
-     *      max = 99,
-     *      minMessage = "You must be at least {{ limit }} number to enter",
-     *      maxMessage = "You cannot be enter than {{ limit }} number"
-     * )
      */
-    protected $number;
+    protected $job;
 
     /**
-     * @MongoDB\Field(type="string")
-     * @Assert\NotBlank()
-     */
-    protected $position;
-
-    /**
-     * @MongoDB\Field(type="string")
+     * @MongoDB\Field(type="datetime")
      * @Assert\NotBlank()
      * @Assert\DateTime()
      */
@@ -101,24 +89,14 @@ class Player
         $this->surname = $surname;
     }
 
-    public function getNumber()
+    public function getJob()
     {
-        return $this->number;
+        return $this->job;
     }
 
-    public function setNumber($number)
+    public function setJob($job)
     {
-        $this->number = $number;
-    }
-
-    public function getPosition()
-    {
-        return $this->position;
-    }
-
-    public function setPosition($position)
-    {
-        $this->position = $position;
+        $this->job = $job;
     }
 
     public function getBirthdate()
