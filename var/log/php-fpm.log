@@ -6,3 +6,69 @@
 [06-Dec-2018 15:08:05] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
 [06-Dec-2018 15:08:05] NOTICE: fpm is running, pid 1
 [06-Dec-2018 15:08:05] NOTICE: ready to handle connections
+[07-Dec-2018 15:26:51] NOTICE: Terminating ...
+[07-Dec-2018 15:26:51] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:29:28] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:29:28] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:29:28] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:29:28] NOTICE: ready to handle connections
+[07-Dec-2018 15:30:50] NOTICE: Terminating ...
+[07-Dec-2018 15:30:50] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:31:10] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:31:10] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:31:10] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:31:10] NOTICE: ready to handle connections
+[07-Dec-2018 15:36:12] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:36:12] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:36:12] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:36:12] NOTICE: ready to handle connections
+[07-Dec-2018 15:36:21] NOTICE: Terminating ...
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:36:21] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:37:31] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:37:31] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:37:31] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:37:31] NOTICE: ready to handle connections
+[07-Dec-2018 15:37:49] NOTICE: Terminating ...
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] ERROR: unable to read what child say: Bad file descriptor (9)
+[07-Dec-2018 15:37:49] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:44:45] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:44:45] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:44:45] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:44:45] NOTICE: ready to handle connections
+[07-Dec-2018 15:53:06] NOTICE: Terminating ...
+[07-Dec-2018 15:53:06] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:58:20] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:58:20] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:58:20] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:58:20] NOTICE: ready to handle connections
+[07-Dec-2018 15:58:27] NOTICE: Terminating ...
+[07-Dec-2018 15:58:27] NOTICE: exiting, bye-bye!
+[07-Dec-2018 15:59:07] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:59:07] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 15:59:07] NOTICE: fpm is running, pid 1
+[07-Dec-2018 15:59:07] NOTICE: ready to handle connections
+[07-Dec-2018 16:02:31] NOTICE: Terminating ...
+[07-Dec-2018 16:02:31] NOTICE: exiting, bye-bye!
+[07-Dec-2018 16:03:40] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[07-Dec-2018 16:03:40] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[07-Dec-2018 16:03:40] NOTICE: fpm is running, pid 1
+[07-Dec-2018 16:03:40] NOTICE: ready to handle connections
+[09-Dec-2018 22:40:51] NOTICE: Terminating ...
+[09-Dec-2018 22:40:51] NOTICE: exiting, bye-bye!
+[09-Dec-2018 22:41:16] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[09-Dec-2018 22:41:16] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[09-Dec-2018 22:41:16] NOTICE: fpm is running, pid 1
+[09-Dec-2018 22:41:16] NOTICE: ready to handle connections
+[09-Dec-2018 22:41:30] WARNING: [pool www] child 9 said into stderr: "2018-12-09T22:41:30+00:00 [debug] Warning: filemtime(): stat failed for /home/tani/vhosts/symfony/config/routes/annotations.yaml"
+[09-Dec-2018 22:41:30] WARNING: [pool www] child 10 said into stderr: "2018-12-09T22:41:30+00:00 [critical] Uncaught Exception: No route found for "GET /favicon.ico" (from "http://scout.local/")"

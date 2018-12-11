@@ -1,4 +1,4 @@
-FROM php:7.0-fpm
+FROM php:7.1-fpm
 ARG user
 ENV USER ${user}
 ENV TERM xterm-256color

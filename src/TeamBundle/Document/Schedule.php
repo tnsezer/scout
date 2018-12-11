@@ -21,12 +21,12 @@ class Schedule
     protected $id;
 
     /**
-     * @ReferenceOne(targetDocument="Scout", storeAs="id")
+     * @MongoDB\ReferenceOne(targetDocument="Scout", storeAs="id")
      */
     protected $scout;
 
     /**
-     * @ReferenceOne(targetDocument="Player", storeAs="id")
+     * @MongoDB\ReferenceOne(targetDocument="Player", storeAs="id")
      */
     protected $player;
 
