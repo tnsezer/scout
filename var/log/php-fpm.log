@@ -72,3 +72,7 @@
 [09-Dec-2018 22:41:16] NOTICE: ready to handle connections
 [09-Dec-2018 22:41:30] WARNING: [pool www] child 9 said into stderr: "2018-12-09T22:41:30+00:00 [debug] Warning: filemtime(): stat failed for /home/tani/vhosts/symfony/config/routes/annotations.yaml"
 [09-Dec-2018 22:41:30] WARNING: [pool www] child 10 said into stderr: "2018-12-09T22:41:30+00:00 [critical] Uncaught Exception: No route found for "GET /favicon.ico" (from "http://scout.local/")"
+[11-Dec-2018 14:34:45] NOTICE: Terminating ...
+[11-Dec-2018 14:34:45] ERROR: unable to read what child say: Bad file descriptor (9)
+[11-Dec-2018 14:34:46] ERROR: unable to read what child say: Bad file descriptor (9)
+[11-Dec-2018 14:34:46] NOTICE: exiting, bye-bye!

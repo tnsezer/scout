@@ -1,0 +1,8 @@
+fos_oauth_server:
+  db_driver: mongodb       # Drivers available: orm, mongodb, or propel
+  client_class:        TeamBundle\Document\Client
+  access_token_class:  TeamBundle\Document\AccessToken
+  refresh_token_class: TeamBundle\Document\RefreshToken
+  auth_code_class:     TeamBundle\Document\AuthCode
+  service:
+    user_provider: fos_user.user_provider.username

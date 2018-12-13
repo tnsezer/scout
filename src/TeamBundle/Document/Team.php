@@ -7,16 +7,12 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Bundle\MongoDBBundle\Validator\Constraints\Unique as MongoDBUnique;
 
 /**
- * USEFULL_DESCRIPTION_HERE
- *
- * @author Tan SEZER <t.sezer@youwe.nl>
- *
  * @MongoDB\Document(collection="teams")
  */
 class Team
 {
     /**
-     * @MongoDB\Id
+     * @MongoDB\Id(strategy="auto")
      */
     protected $id;
 
