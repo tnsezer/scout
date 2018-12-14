@@ -15,13 +15,14 @@ RUN apt-get update -y \
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
     && docker-php-ext-install bcmath bz2 gd mbstring intl xsl zip mcrypt pdo_mysql pdo_pgsql redis soap ftp \
     && yes | pecl install xdebug \
+    && yes | pecl install mongodb \
+    && docker-php-ext-enable mongodb \
     && docker-php-ext-enable gd \
     && docker-php-ext-enable opcache \
     && go get github.com/mailhog/mhsendmail \
     && echo "memory_limit=1024M" > /usr/local/etc/php/conf.d/memory-limit.ini \
     && useradd -ms /bin/bash "$USER" \
     && usermod -a -G www-data "$USER"
-
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

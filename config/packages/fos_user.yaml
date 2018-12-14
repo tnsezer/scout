@@ -1,7 +1,7 @@
 fos_user:
   db_driver: mongodb # other valid values are 'mongodb', 'couchdb' and 'propel'
   firewall_name: main
-  user_class: TeamBundle\Document\User
+  user_class: App\ApiBundle\Document\User
   from_email:
     address: "%mailer_user%"
     sender_name: "%mailer_user%"

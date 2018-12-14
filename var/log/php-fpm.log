@@ -76,3 +76,19 @@
 [11-Dec-2018 14:34:45] ERROR: unable to read what child say: Bad file descriptor (9)
 [11-Dec-2018 14:34:46] ERROR: unable to read what child say: Bad file descriptor (9)
 [11-Dec-2018 14:34:46] NOTICE: exiting, bye-bye!
+[14-Dec-2018 09:20:34] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[14-Dec-2018 09:20:34] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[14-Dec-2018 09:20:34] NOTICE: fpm is running, pid 1
+[14-Dec-2018 09:20:34] NOTICE: ready to handle connections
+[14-Dec-2018 13:46:09] NOTICE: Terminating ...
+[14-Dec-2018 13:46:09] NOTICE: exiting, bye-bye!
+[14-Dec-2018 13:47:32] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[14-Dec-2018 13:47:32] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[14-Dec-2018 13:47:32] NOTICE: fpm is running, pid 1
+[14-Dec-2018 13:47:32] NOTICE: ready to handle connections
+[14-Dec-2018 15:57:44] NOTICE: Terminating ...
+[14-Dec-2018 15:57:44] NOTICE: exiting, bye-bye!
+[14-Dec-2018 16:04:46] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[14-Dec-2018 16:04:46] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[14-Dec-2018 16:04:46] NOTICE: fpm is running, pid 1
+[14-Dec-2018 16:04:46] NOTICE: ready to handle connections

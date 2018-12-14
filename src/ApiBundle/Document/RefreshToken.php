@@ -1,6 +1,6 @@
 <?php
 
-namespace App\TeamBundle\Document;
+namespace App\ApiBundle\Document;
 
 use FOS\OAuthServerBundle\Document\RefreshToken as BaseRefreshToken;
 use FOS\OAuthServerBundle\Model\ClientInterface;

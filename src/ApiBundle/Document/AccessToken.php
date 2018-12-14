@@ -1,14 +1,15 @@
 <?php
 
-namespace App\TeamBundle\Document;
+namespace App\ApiBundle\Document;
 
-use FOS\OAuthServerBundle\Document\AuthCode as BaseAuthCode;
+use FOS\OAuthServerBundle\Document\AccessToken as BaseAccessToken;
 use FOS\OAuthServerBundle\Model\ClientInterface;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+
 /**
  * @MongoDB\Document
  */
-class AuthCode extends BaseAuthCode
+class AccessToken extends BaseAccessToken
 {
     /**
      * @MongoDB\Id(strategy="auto")

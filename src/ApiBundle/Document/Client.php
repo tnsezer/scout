@@ -1,6 +1,6 @@
 <?php
 
-namespace App\TeamBundle\Document;
+namespace App\ApiBundle\Document;
 
 use FOS\OAuthServerBundle\Document\Client as BaseClient;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;

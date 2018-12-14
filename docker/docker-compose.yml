@@ -20,14 +20,10 @@ services:
     extends:
       file: php7/base.yml
       service: php
-      links:
-        - mongo
   web:
     extends:
       file: nginx/base.yml
       service: web
-      links:
-        - php
   redis:
     extends:
       file: redis/base.yml
