@@ -92,3 +92,5 @@
 [14-Dec-2018 16:04:46] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
 [14-Dec-2018 16:04:46] NOTICE: fpm is running, pid 1
 [14-Dec-2018 16:04:46] NOTICE: ready to handle connections
+[14-Dec-2018 16:21:42] NOTICE: Terminating ...
+[14-Dec-2018 16:21:42] NOTICE: exiting, bye-bye!
