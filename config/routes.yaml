@@ -1,10 +1,18 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
-api:
-  resource: "@ApiBundle/Controller/"
+player:
+  resource: "@PlayerBundle/Controller/"
   type:     annotation
-  prefix:   /
+
+schedule:
+  resource: "@ScheduleBundle/Controller/"
+  type:     annotation
+
+scout:
+  resource: "@ScoutBundle/Controller/"
+  type:     annotation
+
+team:
+  resource: "@TeamBundle/Controller/"
+  type:     annotation
 
 fos_user_security:
   resource: "@FOSUserBundle/Resources/config/routing/security.xml"
